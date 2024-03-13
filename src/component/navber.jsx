@@ -130,7 +130,7 @@ export default function Navber() {
               </ul>
             </li>
             <li>
-              <a href="#">ABOUT US</a>
+              <a href="#">PAYMENT</a>
             </li>
             <li>
               <a href="#">CONTACT US</a>

@@ -114,6 +114,40 @@ export default function Home() {
               </ul>
             </div>
           </li>
+          <li>
+            <img
+              onClick={() => switchonclick("style")}
+              src={balti}
+              alt="loading"
+            ></img>
+            <div onClick={() => switchonclick("style")} className="seedetails">
+              <h3>Salt </h3>
+              <ul>
+               
+                <li>25 kg Bag</li>
+                <li>1 kg packet</li>
+                <li>500g packet</li>
+               
+              </ul>
+            </div>
+          </li>
+          <li>
+            <img
+              onClick={() => switchonclick("style")}
+              src={balti}
+              alt="loading"
+            ></img>
+            <div onClick={() => switchonclick("style")} className="seedetails">
+              <h3>Chapa</h3>
+              <ul>
+                <li>single size</li>
+                {/* <li>1kg packet</li>
+                <li>500g packet</li> */}
+               
+               
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
