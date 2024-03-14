@@ -15,9 +15,9 @@ export default function Home() {
       <Navber />
       <Crousal />
       <div id="catagory">
-        {/* <div id="catagoryheading">
-                    {/* <h2>SHOP BY CATAGORY</h2> */}
-        {/* </div> */}
+        <div id="catagoryheading">
+                    <h2>TOP SELLING PRODUCT</h2> 
+         </div> 
         <ul id="ul1">
           <li>
             <img

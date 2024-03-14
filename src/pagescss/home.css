@@ -27,13 +27,13 @@ ul {
   #catagory > ul >li {
     cursor: pointer;
     margin-top: 30px;
-    box-shadow: 7px 5px 5px rgba(19, 3, 3, 0.424);;
+    box-shadow: 0px 0px 7px rgba(19, 3, 3, 0.424);;
     /* position: relative; */
     margin-bottom: 20px;
   }
   #catagory ul li img {
     /* cursor: pointer; */
-    width: 27vw;
+    width: 25vw;
     height: 300px;
     margin-bottom: 0px;
   }
@@ -48,7 +48,7 @@ ul {
    margin-right: auto;
     /* bottom: 0%; */
   
-    width: 27vw;
+    width: 25vw;
     background-color: rgba(235, 236, 238, 0.523);
     /* display: flex; */
     opacity: 1;
@@ -60,8 +60,7 @@ ul {
     /* text-shadow: .2px .1px ; */
   }
   .seedetails ul{
-    /* text-align: left; */
-    margin-bottom: 20px;
+    min-height: 92px;
     display: flex;
     flex-direction: column;
   }
@@ -82,10 +81,10 @@ ul {
   @media (max-width:550px) {
     #catagory ul li img,.seedetails {
       width: 40vw;
-      height: 200px;
+      /* height: 200px; */
     }
-    .seedetails {
-      height: fit-content;
+    .seedetails ul {
+      min-height: 100px;
       font-size: 13px;
 
     }

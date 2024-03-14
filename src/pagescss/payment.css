@@ -1,0 +1,15 @@
+.scan {
+    /* cursor: pointer; */
+    width: 27vw;
+    height: 95vh;
+    margin-bottom: 0px;
+  }
+  @media (max-width: 950px) {
+
+  .scan {
+    /* cursor: pointer; */
+    width: 100vw;
+    height: 95vh;
+    margin-bottom: 0px;
+  }
+}

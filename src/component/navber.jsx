@@ -1,11 +1,12 @@
 import "./navber.css";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 export default function Navber() {
   const [shownav, setshownav] = useState(0);
   const [subshownav, setsubshownav] = useState(0);
   const [subshownav2, setsubshownav2] = useState(0);
-
+  const navigate =useNavigate();
   const opennav = () => {
     const navLinks = document.getElementById("navlist");
     const xmarks = document.getElementById("xmark");
@@ -68,12 +69,12 @@ export default function Navber() {
     <nav>
       <div className="navbar" id="navbar">
         <div className="logo">
-          <a href="#">AKG SHOP</a>
+          <a onClick={()=>navigate("/")}>AKG SHOP</a>
         </div>
         <div className="nav-links">
           <ul className="links" id="navlist">
             <li>
-              <a href="#">HOME</a>
+              <a onClick={()=>navigate("/")}>HOME</a>
             </li>
             <li>
               <a href="#">Hardware Product</a>
@@ -130,10 +131,10 @@ export default function Navber() {
               </ul>
             </li>
             <li>
-              <a href="#">PAYMENT</a>
+              <a  onClick={()=>navigate("/payment")}>PAYMENT</a>
             </li>
             <li>
-              <a href="#">CONTACT US</a>
+              <a onClick={()=>navigate("/contact")}>CONTACT US</a>
             </li>
           </ul>
         </div>

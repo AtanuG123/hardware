@@ -30,6 +30,9 @@ nav .navbar {
   /* background: red; */
   /* padding: 0 0px; */
 }
+.navbar a{
+  cursor: pointer;
+}
 .navbar .logo a {
   font-size: 30px;
   color: #fff;
