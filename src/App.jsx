@@ -10,13 +10,13 @@ function App() {
   
 
   return (
-    <div >
+    <div className='App' >
         <BrowserRouter>
           <Routes>
               {/* <Route path="/payvalue/:id" element={<Cart />}></Route> */}
-              <Route path="" element={<Home/>}></Route>
-              <Route path="/contact" element={<Contact/>} ></Route>
-              <Route path="/payment" element={<Payment/>} ></Route>
+              <Route  path="" element={<Home/>}></Route>
+              <Route exact path="/contact" element={<Contact/>} ></Route>
+              <Route exact path="/payment" element={<Payment/>} ></Route>
               
           </Routes>
         </BrowserRouter>
